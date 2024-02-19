@@ -1,0 +1,23 @@
+INFO     test_cases.test_user_center:test_user_center.py:20 ---------------UI自动化开始---------------
+INFO     test_cases.test_user_center:test_user_center.py:21 测试用例名称：test_edit_user_gender
+INFO     test_cases.test_user_center:test_user_center.py:22 使用参数化，本次参数为：男
+INFO     py_page.main_page:main_page.py:36 进入个人中心页面：goto_personal_center_page
+INFO     py_page.base_page:base_page.py:347 调用 move_to_element 方法，定位器是:['id', 'toolbar-search-input'], 下标是:None
+INFO     py_page.base_page:base_page.py:286 调用 find_and_click 方法，定位器是:['xpath', '//a[@data-report-query="spm=3001.5343"]']
+INFO     py_page.personal_center_page:personal_center_page.py:15 点击编辑资料，进入个人资料页面：goto_user_center_page
+INFO     py_page.base_page:base_page.py:286 调用 find_and_click 方法，定位器是:['xpath', '//a[text()="编辑资料"]']
+INFO     py_page.base_page:base_page.py:356 调用 switch_to_window 方法，下标是:-1
+INFO     py_page.user_center_page:user_center_page.py:23 编辑性别为男：edit_gender
+INFO     py_page.base_page:base_page.py:272 move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素前，进行强制等待时间为:2
+INFO     py_page.base_page:base_page.py:347 调用 move_to_element 方法，定位器是:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"], 下标是:None
+INFO     py_page.base_page:base_page.py:319 调用 finds_and_click 方法，定位器是['xpath', "//div[text()='编辑']"], 下标是1
+INFO     py_page.base_page:base_page.py:286 调用 find_and_click 方法，定位器是:['xpath', '//span[text()="男"]']
+INFO     py_page.base_page:base_page.py:286 调用 find_and_click 方法，定位器是:['xpath', "//span[text()='确定']"]
+INFO     py_page.user_center_page:user_center_page.py:35 获取性别：get_gender
+INFO     py_page.base_page:base_page.py:272 find:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]定位元素前，进行强制等待时间为:2
+INFO     py_page.base_page:base_page.py:277 调用 find 方法，定位器是:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]
+INFO     py_page.user_center_page:user_center_page.py:37 性别为男
+INFO     test_cases.test_user_center:test_user_center.py:27 预期结果：男
+INFO     test_cases.test_user_center:test_user_center.py:28 实际结果：男
+INFO     test_cases.test_user_center:test_user_center.py:32 测试用例执行成功
+INFO     test_cases.test_user_center:test_user_center.py:33 ---------------UI自动化结束---------------

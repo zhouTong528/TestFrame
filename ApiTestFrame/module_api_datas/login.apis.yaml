@@ -1,0 +1,26 @@
+demo:
+  api: ~
+  method: ~
+  headers: ~
+  params: ~
+  data: ~
+  json: ~
+  files: ~
+
+login_api:
+  api: /auth/oauth/token
+  method: 'post'
+  headers: ~
+  params: ~
+  data: ~
+  json: {'username': $account, 'password': $pwd}
+  files: ~
+
+register_api:
+  api: /api/register
+  method: 'post'
+  headers: ~
+  params: ~
+  data: ~
+  json: {'username': $account, 'password': $pwd}
+  files: ~

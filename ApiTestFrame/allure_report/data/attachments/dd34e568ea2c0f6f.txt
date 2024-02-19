@@ -1,0 +1,14 @@
+[32mINFO    [0m test_cases.test_login:test_login.py:20 ---------------接口自动化开始---------------
+[32mINFO    [0m test_cases.test_login:test_login.py:21 测试用例名称：test_login
+[32mINFO    [0m common.json_res:json_res.py:16 jsonpath匹配结果是: ['登录成功']
+[32mINFO    [0m test_cases.test_login:test_login.py:31 实际结果是：登录成功
+[32mINFO    [0m test_cases.test_login:test_login.py:32 预期结果是：登录失败，请输入密码
+[31m[1mERROR   [0m test_cases.test_login:test_login.py:44 执行登录测试失败
+[32mINFO    [0m test_cases.test_login:test_login.py:45 ---------------接口自动化结束---------------
+[32mINFO    [0m test_cases.test_login:test_login.py:20 ---------------接口自动化开始---------------
+[32mINFO    [0m test_cases.test_login:test_login.py:21 测试用例名称：test_login
+[32mINFO    [0m common.json_res:json_res.py:16 jsonpath匹配结果是: ['登录成功']
+[32mINFO    [0m test_cases.test_login:test_login.py:31 实际结果是：登录成功
+[32mINFO    [0m test_cases.test_login:test_login.py:32 预期结果是：登录失败，请输入密码
+[31m[1mERROR   [0m test_cases.test_login:test_login.py:44 执行登录测试失败
+[32mINFO    [0m test_cases.test_login:test_login.py:45 ---------------接口自动化结束---------------

@@ -1,0 +1,22 @@
+# 数据库链接配置
+db_data:
+  host: "47.103.xxxx"
+  port: 3306
+  user: "xxx"
+  password: "xxx"
+  charset: 'utf8'
+
+send_email:
+  mail_host: 'smtp.qq.com'
+  mail_user: 'xxx'
+  mail_key: 'xxx'
+  sender: '123456@qq.com'
+  receivers: ['xxxx@qq.com', '1760xxxx@163.com']
+
+base_api:
+  host: 'https://xxx'
+  timeout: 10
+
+login_data:
+  account: 'xxx'
+  pwd: 'xxx'

@@ -1,0 +1,83 @@
+demo:
+  - action: ''
+    locator: [ 'xpath', '' ]
+    index: ~
+    text: ~
+    sleep: ~
+
+
+
+click_login:
+  - action: "find_and_click"
+    locator: [ "xpath", "//a[text()='登录']" ]
+    index: ~
+    text: ~
+    sleep: 1
+  - action: 'switch_to_frame'
+    locator: ~
+    index: ~
+    text: 'passport_iframe'
+    sleep: ~
+
+use_account_password_login:
+  - action: 'find_and_click'
+    locator: [ "xpath", "//span[text()='密码登录']"]
+    index: ~
+    text: ~
+    sleep: ~
+  - action: 'find_and_send_keys'
+    locator: [ "xpath", '//input[@placeholder="手机号/邮箱/用户名"]' ]
+    index: ~
+    text: $account
+    sleep: ~
+  - action: 'find_and_send_keys'
+    locator: [ "xpath", '//input[@placeholder="密码"]' ]
+    index: ~
+    text: $pwd
+    sleep: ~
+  - action: 'find_and_click'
+    locator: [ "xpath", '//i[@class="icon icon-nocheck"]']
+    index: ~
+    text: ~
+    sleep: ~
+  - action: 'find_and_click'
+    locator: [ "xpath", '//button[text()="登录"]']
+    index: ~
+    text: ~
+    sleep: ~
+  - action: 'switch_to_content'
+    locator: ~
+    index: ~
+    text: 'default_content'
+    sleep: ~
+
+get_login_name:
+  - action: 'move_to_element'
+    locator: [ "xpath", '//a[@data-report-query="spm=3001.5343"]']
+    index: 0
+    text: ~
+    sleep: ~
+  - action: 'find'
+    locator: [ "xpath", '//p[text()="测试小周965"]' ]
+    index: ~
+    text: ~
+    sleep: ~
+
+goto_personal_center_page:
+  - action: 'move_to_element'          # 可能会存在点击的元素会被遮挡，所以先移动到元素上，再点击
+    locator: [ "id", 'toolbar-search-input' ]
+    index: ~
+    text: ~
+    sleep: ~
+  - action: 'find_and_click'
+    locator: [ "xpath", '//a[@data-report-query="spm=3001.5343"]' ]
+    index: 0
+    text: ~
+    sleep: ~
+
+goto_publish_article_page:
+  - action: 'find_and_click'
+    locator: [ 'xpath', '//a[text()="发布"]' ]
+    index: ~
+    text: ~
+    sleep: 1

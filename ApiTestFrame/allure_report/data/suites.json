@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_cases",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLoginApis",
+        "children" : [ {
+          "name" : "test_login[正确账号登录]",
+          "uid" : "e244ac830a9816c7",
+          "parentUid" : "02442c9679235e9ba523bbbb2757c387",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708172461920,
+            "stop" : 1708172461920,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': '正确账号登录', 'account': 1, 'pwd': 12356, 'expect': '登录成功'}" ]
+        }, {
+          "name" : "test_login[错误账号登录]",
+          "uid" : "67c361d0549312c0",
+          "parentUid" : "02442c9679235e9ba523bbbb2757c387",
+          "status" : "failed",
+          "time" : {
+            "start" : 1708172461963,
+            "stop" : 1708172461963,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': '错误账号登录', 'account': 1, 'pwd': 123562222, 'expect': '登录失败，密码错误'}" ]
+        }, {
+          "name" : "test_register",
+          "uid" : "1ef02190079e7435",
+          "parentUid" : "02442c9679235e9ba523bbbb2757c387",
+          "status" : "passed",
+          "time" : {
+            "start" : 1708172461973,
+            "stop" : 1708172461979,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_login[无账号登录]",
+          "uid" : "7b41f997f498d1f6",
+          "parentUid" : "02442c9679235e9ba523bbbb2757c387",
+          "status" : "failed",
+          "time" : {
+            "start" : 1708172462027,
+            "stop" : 1708172462031,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': '无账号登录', 'account': None, 'pwd': 12356, 'expect': '登录失败，请输入账号'}" ]
+        }, {
+          "name" : "test_login[无密码登录]",
+          "uid" : "363f05b1e31f8797",
+          "parentUid" : "02442c9679235e9ba523bbbb2757c387",
+          "status" : "failed",
+          "time" : {
+            "start" : 1708172462052,
+            "stop" : 1708172462052,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': '无密码登录', 'account': 1, 'pwd': None, 'expect': '登录失败，请输入密码'}" ]
+        } ],
+        "uid" : "02442c9679235e9ba523bbbb2757c387"
+      } ],
+      "uid" : "9ad89efd6ef119ff9521e93685587771"
+    } ],
+    "uid" : "10075452c99ff4a1bfbce955ca922247"
+  } ]
+}

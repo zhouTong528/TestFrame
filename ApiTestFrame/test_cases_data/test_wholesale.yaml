@@ -1,0 +1,7 @@
+test_submit_wholesale_order:
+  - name: "张三"
+    goods: {"name": "配件", "code": "000-001-001", "price": 100, "num": 1}
+  - name: "李四"
+    goods: {"name": "配件2", "code": "000-001-002", "price": 0, "num": 2}
+  - name: "王五"
+    goods: {"name": "配件3", "code": "000-001-003", "price": 999999, "num": 123}

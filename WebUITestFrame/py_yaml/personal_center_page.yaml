@@ -1,0 +1,20 @@
+
+demo:
+  - action: ''
+    locator: [ 'xpath', '' ]
+    index: ~
+    text: ~
+    sleep: ~
+
+
+goto_user_center_page:
+  - action: 'find_and_click'
+    locator: [ "xpath", '//a[text()="编辑资料"]' ]
+    index: ~
+    text: ~
+    sleep: ~
+  - action: 'switch_to_window'
+    locator: ~
+    index: -1
+    text: ~
+    sleep: ~

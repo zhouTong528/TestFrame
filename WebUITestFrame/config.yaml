@@ -1,0 +1,14 @@
+
+
+url: "https://www.csdn.net/"
+
+
+send_email:
+  mail_host: 'smtp.qq.com'
+  mail_user: '229962750'
+  mail_key: 'iadcbyruknpsbhfi'
+  sender: '229962750@qq.com'
+  receivers: ['229962750@qq.com', '17601233568@163.com']
+
+
+

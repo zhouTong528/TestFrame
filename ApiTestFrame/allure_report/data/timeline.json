@@ -1,0 +1,160 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "椰子水",
+    "children" : [ {
+      "name" : "15784-MainThread",
+      "children" : [ {
+        "name" : "test_login[无密码登录]",
+        "uid" : "ecbb7bc99ddcbb89",
+        "parentUid" : "b8c7c43d8630d1e433daed7cbcf0126b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172462031,
+          "stop" : 1708172462031,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '无密码登录', 'account': 1, 'pwd': None, 'expect': '登录失败，请输入密码'}" ]
+      }, {
+        "name" : "test_login[无账号登录]",
+        "uid" : "17668b34692bbe33",
+        "parentUid" : "b8c7c43d8630d1e433daed7cbcf0126b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172461983,
+          "stop" : 1708172461983,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '无账号登录', 'account': None, 'pwd': 12356, 'expect': '登录失败，请输入账号'}" ]
+      }, {
+        "name" : "test_login[无密码登录]",
+        "uid" : "c5df33c2e85f677b",
+        "parentUid" : "b8c7c43d8630d1e433daed7cbcf0126b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172462042,
+          "stop" : 1708172462042,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '无密码登录', 'account': 1, 'pwd': None, 'expect': '登录失败，请输入密码'}" ]
+      }, {
+        "name" : "test_login[无账号登录]",
+        "uid" : "345d50f0c191773c",
+        "parentUid" : "b8c7c43d8630d1e433daed7cbcf0126b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172462021,
+          "stop" : 1708172462021,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '无账号登录', 'account': None, 'pwd': 12356, 'expect': '登录失败，请输入账号'}" ]
+      }, {
+        "name" : "test_login[无密码登录]",
+        "uid" : "363f05b1e31f8797",
+        "parentUid" : "b8c7c43d8630d1e433daed7cbcf0126b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172462052,
+          "stop" : 1708172462052,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '无密码登录', 'account': 1, 'pwd': None, 'expect': '登录失败，请输入密码'}" ]
+      }, {
+        "name" : "test_login[无账号登录]",
+        "uid" : "7b41f997f498d1f6",
+        "parentUid" : "b8c7c43d8630d1e433daed7cbcf0126b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172462027,
+          "stop" : 1708172462031,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '无账号登录', 'account': None, 'pwd': 12356, 'expect': '登录失败，请输入账号'}" ]
+      } ],
+      "uid" : "b8c7c43d8630d1e433daed7cbcf0126b"
+    }, {
+      "name" : "16440-MainThread",
+      "children" : [ {
+        "name" : "test_login[错误账号登录]",
+        "uid" : "3a462b90f2ddef10",
+        "parentUid" : "61296346bef5848b748a22a58ef5d4e1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172461958,
+          "stop" : 1708172461958,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '错误账号登录', 'account': 1, 'pwd': 123562222, 'expect': '登录失败，密码错误'}" ]
+      }, {
+        "name" : "test_login[正确账号登录]",
+        "uid" : "e244ac830a9816c7",
+        "parentUid" : "61296346bef5848b748a22a58ef5d4e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708172461920,
+          "stop" : 1708172461920,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '正确账号登录', 'account': 1, 'pwd': 12356, 'expect': '登录成功'}" ]
+      }, {
+        "name" : "test_login[错误账号登录]",
+        "uid" : "67c361d0549312c0",
+        "parentUid" : "61296346bef5848b748a22a58ef5d4e1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172461963,
+          "stop" : 1708172461963,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '错误账号登录', 'account': 1, 'pwd': 123562222, 'expect': '登录失败，密码错误'}" ]
+      }, {
+        "name" : "test_register",
+        "uid" : "1ef02190079e7435",
+        "parentUid" : "61296346bef5848b748a22a58ef5d4e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708172461973,
+          "stop" : 1708172461979,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[错误账号登录]",
+        "uid" : "3ab7435cb519094d",
+        "parentUid" : "61296346bef5848b748a22a58ef5d4e1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172461920,
+          "stop" : 1708172461930,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '错误账号登录', 'account': 1, 'pwd': 123562222, 'expect': '登录失败，密码错误'}" ]
+      } ],
+      "uid" : "61296346bef5848b748a22a58ef5d4e1"
+    } ],
+    "uid" : "b091925b7a4cef123f631b033cf557fb"
+  } ]
+}

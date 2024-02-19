@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Feb 18 00:53:26 CST 2024","Sun Feb 18 00:53:47 CST 2024","20836","test_cases","test_user_center","TestUserCenter","","","编辑用户性别","编辑用户性别，编辑成功后，再次获取用户性别，验证是否修改成功"
+"passed","Sun Feb 18 00:52:26 CST 2024","Sun Feb 18 00:52:50 CST 2024","24345","test_cases","test_publish_article","TestPublishArticle","","","上传5M以下图片","上传5M以下图片，上传后查看图片元素是否显示，断言是否成功"
+"failed","Sun Feb 18 00:51:58 CST 2024","Sun Feb 18 00:52:18 CST 2024","20057","test_cases","test_login","TestLogin","","","使用正确的账号密码登录","使用账号密码登录测试，进入首页获取登录名称，判断登录是否成功"
+"passed","Sun Feb 18 00:52:58 CST 2024","Sun Feb 18 00:53:18 CST 2024","20631","test_cases","test_user_center","TestUserCenter","","","编辑用户性别","编辑用户性别，编辑成功后，再次获取用户性别，验证是否修改成功"

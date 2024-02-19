@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "正向登录测试用例",
+      "children" : [ {
+        "name" : "使用正确的账号密码登录",
+        "uid" : "9364d390cf0ea498",
+        "parentUid" : "6a9d673061ae615a971750a513cc87a7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708188718213,
+          "stop" : 1708188738270,
+          "duration" : 20057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a9d673061ae615a971750a513cc87a7"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  }, {
+    "name" : "发布文章模块",
+    "children" : [ {
+      "name" : "上传图片用例",
+      "children" : [ {
+        "name" : "上传5M以下图片",
+        "uid" : "7fe32683696b6d0f",
+        "parentUid" : "804b992bcf64a9899c5a2e3ae151f6c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708188746535,
+          "stop" : 1708188770880,
+          "duration" : 24345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "804b992bcf64a9899c5a2e3ae151f6c5"
+    } ],
+    "uid" : "0edc3d6d28c60b36fa566e0a77df8288"
+  }, {
+    "name" : "个人资料模块",
+    "children" : [ {
+      "name" : "编辑个人资料用例",
+      "children" : [ {
+        "name" : "编辑用户性别",
+        "uid" : "37d223f78a07ecfc",
+        "parentUid" : "51ddf4da1e05a1f0c380b523f09f266b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708188778278,
+          "stop" : 1708188798909,
+          "duration" : 20631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'男'" ]
+      }, {
+        "name" : "编辑用户性别",
+        "uid" : "b5bcfe22b24b79cc",
+        "parentUid" : "51ddf4da1e05a1f0c380b523f09f266b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708188806561,
+          "stop" : 1708188827397,
+          "duration" : 20836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'女'" ]
+      } ],
+      "uid" : "51ddf4da1e05a1f0c380b523f09f266b"
+    } ],
+    "uid" : "b83a3a58767bffe40cc343a8aa42fe9f"
+  } ],
+  "name" : "behaviors"
+}

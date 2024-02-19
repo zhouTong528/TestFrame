@@ -1,0 +1,15 @@
+INFO     test_cases.test_publish_article:test_publish_article.py:22 ---------------UI自动化开始---------------
+INFO     test_cases.test_publish_article:test_publish_article.py:23 测试用例名称：test_upload_image
+INFO     py_page.main_page:main_page.py:44 进入发布文章页面：goto_publish_article_page
+INFO     py_page.base_page:base_page.py:272 find_and_click:['xpath', '//a[text()="发布"]']定位元素前，进行强制等待时间为:1
+INFO     py_page.base_page:base_page.py:286 调用 find_and_click 方法，定位器是:['xpath', '//a[text()="发布"]']
+INFO     py_page.publish_article_page:publish_article_page.py:18 开始上传图片：upload_image
+INFO     py_page.publish_article_page:publish_article_page.py:19 上传图片路径：D:\十九\Desktop\Selenium.png
+INFO     py_page.base_page:base_page.py:286 调用 find_and_click 方法，定位器是:['id', 'cke_28']
+INFO     py_page.base_page:base_page.py:286 调用 find_and_click 方法，定位器是:['xpath', '//span[text()="选择图片"]']
+INFO     py_page.base_page:base_page.py:401 调用 upload_file 方法，上传文件路径是:D:\十九\Desktop\Selenium.png
+INFO     py_page.publish_article_page:publish_article_page.py:25 开始获取上传图片元素：get_upload_image_element
+INFO     py_page.base_page:base_page.py:365 调用 switch_to_frame 方法，目标是:0
+INFO     py_page.base_page:base_page.py:277 调用 find 方法，定位器是:['xpath', '//span[@data-cke-display-name="图像"]']
+INFO     test_cases.test_publish_article:test_publish_article.py:30 上传图片元素可见，测试用例执行成功
+INFO     test_cases.test_publish_article:test_publish_article.py:31 ---------------UI自动化结束---------------

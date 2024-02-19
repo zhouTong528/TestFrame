@@ -1,0 +1,91 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "椰子水",
+    "children" : [ {
+      "name" : "23280-MainThread",
+      "children" : [ {
+        "name" : "使用正确的账号密码登录",
+        "uid" : "180409e211bd138a",
+        "parentUid" : "08ab86700f8970c3545223c0512a3029",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708188694333,
+          "stop" : 1708188710904,
+          "duration" : 16571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑用户性别",
+        "uid" : "37d223f78a07ecfc",
+        "parentUid" : "08ab86700f8970c3545223c0512a3029",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708188778278,
+          "stop" : 1708188798909,
+          "duration" : 20631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'男'" ]
+      }, {
+        "name" : "使用正确的账号密码登录",
+        "uid" : "8b63ada692a0f264",
+        "parentUid" : "08ab86700f8970c3545223c0512a3029",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708188664315,
+          "stop" : 1708188685010,
+          "duration" : 20695
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "使用正确的账号密码登录",
+        "uid" : "9364d390cf0ea498",
+        "parentUid" : "08ab86700f8970c3545223c0512a3029",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708188718213,
+          "stop" : 1708188738270,
+          "duration" : 20057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "上传5M以下图片",
+        "uid" : "7fe32683696b6d0f",
+        "parentUid" : "08ab86700f8970c3545223c0512a3029",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708188746535,
+          "stop" : 1708188770880,
+          "duration" : 24345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑用户性别",
+        "uid" : "b5bcfe22b24b79cc",
+        "parentUid" : "08ab86700f8970c3545223c0512a3029",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708188806561,
+          "stop" : 1708188827397,
+          "duration" : 20836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'女'" ]
+      } ],
+      "uid" : "08ab86700f8970c3545223c0512a3029"
+    } ],
+    "uid" : "b091925b7a4cef123f631b033cf557fb"
+  } ],
+  "name" : "timeline"
+}

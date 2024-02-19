@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '登录成功' == '登录失败，密码错误'\n  - 登录失败，密码错误\n  + 登录成功",
+      "children" : [ {
+        "name" : "test_login[错误账号登录]",
+        "uid" : "67c361d0549312c0",
+        "parentUid" : "dabbfb049fec139d9794f41834ae5af9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172461963,
+          "stop" : 1708172461963,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '错误账号登录', 'account': 1, 'pwd': 123562222, 'expect': '登录失败，密码错误'}" ]
+      } ],
+      "uid" : "dabbfb049fec139d9794f41834ae5af9"
+    }, {
+      "name" : "AssertionError: assert '登录成功' == '登录失败，请输入账号'\n  - 登录失败，请输入账号\n  + 登录成功",
+      "children" : [ {
+        "name" : "test_login[无账号登录]",
+        "uid" : "7b41f997f498d1f6",
+        "parentUid" : "e9e986b0f4613a9bee9bf0c61b404a9c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172462027,
+          "stop" : 1708172462031,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '无账号登录', 'account': None, 'pwd': 12356, 'expect': '登录失败，请输入账号'}" ]
+      } ],
+      "uid" : "e9e986b0f4613a9bee9bf0c61b404a9c"
+    }, {
+      "name" : "AssertionError: assert '登录成功' == '登录失败，请输入密码'\n  - 登录失败，请输入密码\n  + 登录成功",
+      "children" : [ {
+        "name" : "test_login[无密码登录]",
+        "uid" : "363f05b1e31f8797",
+        "parentUid" : "e5a815b8422b6fac093be0331d0fee79",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708172462052,
+          "stop" : 1708172462052,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'name': '无密码登录', 'account': 1, 'pwd': None, 'expect': '登录失败，请输入密码'}" ]
+      } ],
+      "uid" : "e5a815b8422b6fac093be0331d0fee79"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

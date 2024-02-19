@@ -1,0 +1,860 @@
+2024-02-12 00:36:57,040 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 00:36:57,040 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 00:36:57,040 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 00:36:57,438 - test_user_center.py:[14] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 00:36:57,438 - test_user_center.py:[15] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 00:36:57,438 - test_user_center.py:[16] - [INFO] - 使用参数化，本次参数为：男
+2024-02-12 00:36:57,438 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 00:36:58,054 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 00:36:58,457 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 00:36:58,481 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 00:36:58,857 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 00:37:08,557 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 00:37:08,557 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 00:37:08,929 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 00:37:08,929 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 00:37:09,260 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 00:37:09,507 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 00:37:09,818 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 00:37:10,022 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 00:37:10,346 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 00:37:10,545 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 00:37:10,830 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 00:37:11,035 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 00:37:11,402 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 00:37:11,408 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 00:37:11,408 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 00:37:11,525 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 00:37:11,528 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 00:37:11,528 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 00:37:12,258 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 00:37:13,491 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 00:37:13,506 - base_page.py:[211] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 00:37:13,517 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 00:37:13,517 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 00:37:13,517 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 00:37:13,976 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 00:37:13,976 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 00:37:22,817 - base_page.py:[222] - [ERROR] - 路径：D:\十九\Desktop\测开教程\WebUI/py_yaml/main_page.yaml，执行功能是:goto_personal_center_page，调用方法是:find_and_click，定位器是:['xpath', '//a[@data-report-query="spm=3001.5343"]']，定位元素失败，错误信息：Message: 元素超时未找到
+Stacktrace:
+	GetHandleVerifier [0x00886EE3+174339]
+	(No symbol) [0x007B0A51]
+	(No symbol) [0x004C6FF6]
+	(No symbol) [0x004F9876]
+	(No symbol) [0x004F9C2C]
+	(No symbol) [0x0052BD42]
+	(No symbol) [0x00517054]
+	(No symbol) [0x0052A104]
+	(No symbol) [0x00516DA6]
+	(No symbol) [0x004F1034]
+	(No symbol) [0x004F1F8D]
+	GetHandleVerifier [0x00924B1C+820540]
+	sqlite3_dbdata_init [0x009E53EE+653550]
+	sqlite3_dbdata_init [0x009E4E09+652041]
+	sqlite3_dbdata_init [0x009D97CC+605388]
+	sqlite3_dbdata_init [0x009E5D9B+656027]
+	(No symbol) [0x007BFE6C]
+	(No symbol) [0x007B83B8]
+	(No symbol) [0x007B84DD]
+	(No symbol) [0x007A5818]
+	BaseThreadInitThunk [0x766D7BA9+25]
+	RtlInitializeExceptionChain [0x7721BD2B+107]
+	RtlClearBits [0x7721BCAF+191]
+
+2024-02-12 00:37:26,918 - test_user_center.py:[14] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 00:37:26,918 - test_user_center.py:[15] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 00:37:26,918 - test_user_center.py:[16] - [INFO] - 使用参数化，本次参数为：女
+2024-02-12 00:37:26,918 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 00:37:32,004 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 00:37:32,501 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 00:37:42,528 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 00:37:42,528 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 00:37:42,921 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 00:37:43,279 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 00:37:43,626 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 00:37:44,013 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 00:37:44,392 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 00:37:44,392 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 00:37:44,392 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 00:37:45,264 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 00:37:46,798 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]']
+2024-02-12 00:37:46,799 - personal_center_page.py:[13] - [INFO] - 点击编辑资料，进入个人资料页面：goto_user_center_page
+2024-02-12 00:37:47,090 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[text()="编辑资料"]']
+2024-02-12 00:37:47,098 - base_page.py:[288] - [INFO] - 调用 switch_to_window 方法，下标是：-1
+2024-02-12 00:37:47,098 - user_center_page.py:[22] - [INFO] - 编辑性别为女：edit_gender
+2024-02-12 00:37:49,121 - base_page.py:[206] - [INFO] - move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素强制等待时间为：2
+2024-02-12 00:37:49,664 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"], 下标是：None
+2024-02-12 00:37:49,938 - base_page.py:[253] - [INFO] - 调用 finds_and_click 方法，定位器是['xpath', "//div[text()='编辑']"], 下标是1
+2024-02-12 00:37:50,213 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//span[text()="女"]']
+2024-02-12 00:37:50,489 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='确定']"]
+2024-02-12 00:37:50,489 - user_center_page.py:[34] - [INFO] - 获取性别：get_gender
+2024-02-12 00:37:52,503 - base_page.py:[206] - [INFO] - find:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]定位元素强制等待时间为：2
+2024-02-12 00:37:52,525 - base_page.py:[211] - [INFO] - 调用 find 方法，定位器是['xpath', "//span[text()='别']/parent::div/following-sibling::div"]
+2024-02-12 00:37:52,538 - user_center_page.py:[36] - [INFO] - 性别为女
+2024-02-12 00:37:52,540 - test_user_center.py:[22] - [INFO] - 预期结果：女
+2024-02-12 00:37:52,540 - test_user_center.py:[23] - [INFO] - 实际结果：女
+2024-02-12 00:37:52,540 - test_user_center.py:[27] - [INFO] - 测试用例执行成功
+2024-02-12 00:37:52,540 - test_user_center.py:[28] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 00:53:05,865 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 00:53:05,865 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 00:53:05,865 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 00:53:05,968 - test_user_center.py:[14] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 00:53:05,968 - test_user_center.py:[15] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 00:53:05,969 - test_user_center.py:[16] - [INFO] - 使用参数化，本次参数为：男
+2024-02-12 00:53:05,969 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 00:53:06,877 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 00:53:06,986 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 00:53:07,422 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 00:53:07,508 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 00:53:17,492 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 00:53:17,493 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 00:53:17,546 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 00:53:17,546 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 00:53:17,894 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 00:53:17,945 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 00:53:18,268 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 00:53:18,324 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 00:53:18,638 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 00:53:18,689 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 00:53:19,022 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 00:53:19,072 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 00:53:19,411 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 00:53:19,413 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 00:53:19,413 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 00:53:19,456 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 00:53:19,456 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 00:53:19,458 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 00:53:20,582 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 00:53:22,315 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]']
+2024-02-12 00:53:22,316 - personal_center_page.py:[13] - [INFO] - 点击编辑资料，进入个人资料页面：goto_user_center_page
+2024-02-12 00:53:22,753 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[text()="编辑资料"]']
+2024-02-12 00:53:22,764 - base_page.py:[288] - [INFO] - 调用 switch_to_window 方法，下标是：-1
+2024-02-12 00:53:22,766 - user_center_page.py:[22] - [INFO] - 编辑性别为男：edit_gender
+2024-02-12 00:53:24,785 - base_page.py:[206] - [INFO] - move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素强制等待时间为：2
+2024-02-12 00:53:25,329 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"], 下标是：None
+2024-02-12 00:53:25,635 - base_page.py:[253] - [INFO] - 调用 finds_and_click 方法，定位器是['xpath', "//div[text()='编辑']"], 下标是1
+2024-02-12 00:53:25,914 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//span[text()="男"]']
+2024-02-12 00:53:26,194 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='确定']"]
+2024-02-12 00:53:26,194 - user_center_page.py:[34] - [INFO] - 获取性别：get_gender
+2024-02-12 00:53:28,198 - base_page.py:[206] - [INFO] - find:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]定位元素强制等待时间为：2
+2024-02-12 00:53:28,232 - base_page.py:[211] - [INFO] - 调用 find 方法，定位器是['xpath', "//span[text()='别']/parent::div/following-sibling::div"]
+2024-02-12 00:53:28,243 - user_center_page.py:[36] - [INFO] - 性别为男
+2024-02-12 00:53:28,251 - test_user_center.py:[22] - [INFO] - 预期结果：男
+2024-02-12 00:53:28,251 - test_user_center.py:[23] - [INFO] - 实际结果：男
+2024-02-12 00:53:28,251 - test_user_center.py:[27] - [INFO] - 测试用例执行成功
+2024-02-12 00:53:28,252 - test_user_center.py:[28] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 00:53:29,932 - base_page.py:[282] - [ERROR] - 路径：D:\十九\Desktop\测开教程\WebUI/py_yaml/main_page.yaml，执行功能是:get_login_name，调用方法是:move_to_element，定位器是:['xpath', '//a[@data-report-query="spm=3001.5343"]']，下标是0，定位元素失败，错误信息：Message: 元素超时未找到
+
+2024-02-12 00:53:41,489 - test_user_center.py:[14] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 00:53:41,489 - test_user_center.py:[15] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 00:53:41,489 - test_user_center.py:[16] - [INFO] - 使用参数化，本次参数为：女
+2024-02-12 00:53:41,490 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 00:53:42,499 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 00:53:43,006 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 00:53:53,036 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 00:53:53,036 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 00:53:53,493 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 00:53:54,032 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 00:53:54,459 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 00:53:54,983 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 00:53:55,514 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 00:53:55,519 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 00:53:55,519 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 00:53:56,639 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 00:53:58,887 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]']
+2024-02-12 00:53:58,889 - personal_center_page.py:[13] - [INFO] - 点击编辑资料，进入个人资料页面：goto_user_center_page
+2024-02-12 00:53:59,321 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[text()="编辑资料"]']
+2024-02-12 00:53:59,352 - base_page.py:[288] - [INFO] - 调用 switch_to_window 方法，下标是：-1
+2024-02-12 00:53:59,355 - user_center_page.py:[22] - [INFO] - 编辑性别为女：edit_gender
+2024-02-12 00:54:01,372 - base_page.py:[206] - [INFO] - move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素强制等待时间为：2
+2024-02-12 00:54:11,935 - base_page.py:[282] - [ERROR] - 路径：D:\十九\Desktop\测开教程\WebUI/py_yaml/user_center_page.yaml，执行功能是:edit_gender，调用方法是:move_to_element，定位器是:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]，下标是None，定位元素失败，错误信息：Message: 元素超时未找到
+Stacktrace:
+	GetHandleVerifier [0x00886EE3+174339]
+	(No symbol) [0x007B0A51]
+	(No symbol) [0x004C6FF6]
+	(No symbol) [0x004F9876]
+	(No symbol) [0x004F9C2C]
+	(No symbol) [0x0052BD42]
+	(No symbol) [0x00517054]
+	(No symbol) [0x0052A104]
+	(No symbol) [0x00516DA6]
+	(No symbol) [0x004F1034]
+	(No symbol) [0x004F1F8D]
+	GetHandleVerifier [0x00924B1C+820540]
+	sqlite3_dbdata_init [0x009E53EE+653550]
+	sqlite3_dbdata_init [0x009E4E09+652041]
+	sqlite3_dbdata_init [0x009D97CC+605388]
+	sqlite3_dbdata_init [0x009E5D9B+656027]
+	(No symbol) [0x007BFE6C]
+	(No symbol) [0x007B83B8]
+	(No symbol) [0x007B84DD]
+	(No symbol) [0x007A5818]
+	BaseThreadInitThunk [0x766D7BA9+25]
+	RtlInitializeExceptionChain [0x7721BD2B+107]
+	RtlClearBits [0x7721BCAF+191]
+
+2024-02-12 00:55:53,103 - test_user_center.py:[14] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 00:55:53,103 - test_user_center.py:[15] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 00:55:53,103 - test_user_center.py:[16] - [INFO] - 使用参数化，本次参数为：男
+2024-02-12 00:55:53,103 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 00:55:54,126 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 00:55:54,499 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 00:56:13,140 - test_user_center.py:[14] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 00:56:13,140 - test_user_center.py:[15] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 00:56:13,140 - test_user_center.py:[16] - [INFO] - 使用参数化，本次参数为：男
+2024-02-12 00:56:13,140 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 00:56:14,153 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 00:56:14,546 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 00:56:24,573 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 00:56:24,574 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 00:56:24,955 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 00:56:25,319 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 00:56:25,664 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 00:56:26,039 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 00:56:26,397 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 00:56:26,399 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 00:56:26,399 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 00:56:27,028 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 00:56:29,850 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]']
+2024-02-12 00:56:29,851 - personal_center_page.py:[13] - [INFO] - 点击编辑资料，进入个人资料页面：goto_user_center_page
+2024-02-12 00:56:30,153 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[text()="编辑资料"]']
+2024-02-12 00:56:30,162 - base_page.py:[288] - [INFO] - 调用 switch_to_window 方法，下标是：-1
+2024-02-12 00:56:30,164 - user_center_page.py:[22] - [INFO] - 编辑性别为男：edit_gender
+2024-02-12 00:56:32,180 - base_page.py:[206] - [INFO] - move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素强制等待时间为：2
+2024-02-12 00:56:32,739 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"], 下标是：None
+2024-02-12 00:56:33,032 - base_page.py:[253] - [INFO] - 调用 finds_and_click 方法，定位器是['xpath', "//div[text()='编辑']"], 下标是1
+2024-02-12 00:56:33,321 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//span[text()="男"]']
+2024-02-12 00:56:33,593 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='确定']"]
+2024-02-12 00:56:33,593 - user_center_page.py:[34] - [INFO] - 获取性别：get_gender
+2024-02-12 00:56:35,608 - base_page.py:[206] - [INFO] - find:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]定位元素强制等待时间为：2
+2024-02-12 00:56:35,630 - base_page.py:[211] - [INFO] - 调用 find 方法，定位器是['xpath', "//span[text()='别']/parent::div/following-sibling::div"]
+2024-02-12 00:56:35,640 - user_center_page.py:[36] - [INFO] - 性别为男
+2024-02-12 00:56:35,645 - test_user_center.py:[22] - [INFO] - 预期结果：男
+2024-02-12 00:56:35,645 - test_user_center.py:[23] - [INFO] - 实际结果：男
+2024-02-12 00:56:35,645 - test_user_center.py:[27] - [INFO] - 测试用例执行成功
+2024-02-12 00:56:35,645 - test_user_center.py:[28] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 00:56:50,990 - test_user_center.py:[14] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 00:56:50,990 - test_user_center.py:[15] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 00:56:50,990 - test_user_center.py:[16] - [INFO] - 使用参数化，本次参数为：女
+2024-02-12 00:56:50,990 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 00:56:52,002 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 00:56:52,421 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 00:57:02,474 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 00:57:02,474 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 00:57:02,890 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 00:57:03,410 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 00:57:03,954 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 00:57:04,457 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 00:57:05,029 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 00:57:05,032 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 00:57:05,033 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 00:57:06,084 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 00:57:07,959 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]']
+2024-02-12 00:57:07,959 - personal_center_page.py:[13] - [INFO] - 点击编辑资料，进入个人资料页面：goto_user_center_page
+2024-02-12 00:57:08,323 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[text()="编辑资料"]']
+2024-02-12 00:57:08,333 - base_page.py:[288] - [INFO] - 调用 switch_to_window 方法，下标是：-1
+2024-02-12 00:57:08,334 - user_center_page.py:[22] - [INFO] - 编辑性别为女：edit_gender
+2024-02-12 00:57:10,346 - base_page.py:[206] - [INFO] - move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素强制等待时间为：2
+2024-02-12 00:57:10,992 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"], 下标是：None
+2024-02-12 00:57:11,401 - base_page.py:[253] - [INFO] - 调用 finds_and_click 方法，定位器是['xpath', "//div[text()='编辑']"], 下标是1
+2024-02-12 00:57:11,802 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//span[text()="女"]']
+2024-02-12 00:57:12,250 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='确定']"]
+2024-02-12 00:57:12,251 - user_center_page.py:[34] - [INFO] - 获取性别：get_gender
+2024-02-12 00:57:14,261 - base_page.py:[206] - [INFO] - find:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]定位元素强制等待时间为：2
+2024-02-12 00:57:14,281 - base_page.py:[211] - [INFO] - 调用 find 方法，定位器是['xpath', "//span[text()='别']/parent::div/following-sibling::div"]
+2024-02-12 00:57:14,297 - user_center_page.py:[36] - [INFO] - 性别为女
+2024-02-12 00:57:14,301 - test_user_center.py:[22] - [INFO] - 预期结果：女
+2024-02-12 00:57:14,301 - test_user_center.py:[23] - [INFO] - 实际结果：女
+2024-02-12 00:57:14,301 - test_user_center.py:[27] - [INFO] - 测试用例执行成功
+2024-02-12 00:57:14,301 - test_user_center.py:[28] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 01:28:39,852 - test_user_center.py:[14] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 01:28:39,852 - test_user_center.py:[15] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 01:28:39,852 - test_user_center.py:[16] - [INFO] - 使用参数化，本次参数为：男
+2024-02-12 01:28:39,852 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 01:28:40,874 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 01:28:41,266 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 01:28:51,326 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 01:28:51,326 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 01:28:51,690 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 01:28:52,070 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 01:28:52,432 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 01:28:52,784 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 01:28:53,148 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 01:28:53,148 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 01:28:53,148 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 01:28:54,084 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 01:28:55,515 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]']
+2024-02-12 01:28:55,516 - personal_center_page.py:[13] - [INFO] - 点击编辑资料，进入个人资料页面：goto_user_center_page
+2024-02-12 01:28:55,813 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[text()="编辑资料"]']
+2024-02-12 01:28:55,826 - base_page.py:[288] - [INFO] - 调用 switch_to_window 方法，下标是：-1
+2024-02-12 01:28:55,827 - user_center_page.py:[22] - [INFO] - 编辑性别为男：edit_gender
+2024-02-12 01:28:57,841 - base_page.py:[206] - [INFO] - move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素强制等待时间为：2
+2024-02-12 01:28:58,416 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"], 下标是：None
+2024-02-12 01:28:58,727 - base_page.py:[253] - [INFO] - 调用 finds_and_click 方法，定位器是['xpath', "//div[text()='编辑']"], 下标是1
+2024-02-12 01:28:59,016 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//span[text()="男"]']
+2024-02-12 01:28:59,315 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='确定']"]
+2024-02-12 01:28:59,315 - user_center_page.py:[34] - [INFO] - 获取性别：get_gender
+2024-02-12 01:29:01,328 - base_page.py:[206] - [INFO] - find:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]定位元素强制等待时间为：2
+2024-02-12 01:29:01,328 - base_page.py:[211] - [INFO] - 调用 find 方法，定位器是['xpath', "//span[text()='别']/parent::div/following-sibling::div"]
+2024-02-12 01:29:01,354 - user_center_page.py:[36] - [INFO] - 性别为男
+女
+2024-02-12 01:29:01,360 - test_user_center.py:[22] - [INFO] - 预期结果：男
+2024-02-12 01:29:01,360 - test_user_center.py:[23] - [INFO] - 实际结果：男
+女
+2024-02-12 01:29:01,360 - test_user_center.py:[31] - [ERROR] - 测试用例执行失败
+2024-02-12 01:29:01,360 - test_user_center.py:[32] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 01:29:10,960 - test_user_center.py:[14] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 01:29:10,960 - test_user_center.py:[15] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 01:29:10,960 - test_user_center.py:[16] - [INFO] - 使用参数化，本次参数为：女
+2024-02-12 01:29:10,960 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 01:29:16,058 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 01:29:16,454 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 01:29:26,511 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 01:29:26,512 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 01:29:26,888 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 01:29:27,240 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 01:29:27,600 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 01:29:28,001 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 01:29:28,388 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 01:29:28,390 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 01:29:28,390 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 01:29:29,162 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 01:29:32,645 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]']
+2024-02-12 01:29:32,645 - personal_center_page.py:[13] - [INFO] - 点击编辑资料，进入个人资料页面：goto_user_center_page
+2024-02-12 01:29:32,967 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[text()="编辑资料"]']
+2024-02-12 01:29:32,980 - base_page.py:[288] - [INFO] - 调用 switch_to_window 方法，下标是：-1
+2024-02-12 01:29:32,981 - user_center_page.py:[22] - [INFO] - 编辑性别为女：edit_gender
+2024-02-12 01:29:34,991 - base_page.py:[206] - [INFO] - move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素强制等待时间为：2
+2024-02-12 01:29:35,554 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"], 下标是：None
+2024-02-12 01:29:35,842 - base_page.py:[253] - [INFO] - 调用 finds_and_click 方法，定位器是['xpath', "//div[text()='编辑']"], 下标是1
+2024-02-12 01:29:36,131 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//span[text()="女"]']
+2024-02-12 01:29:36,407 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='确定']"]
+2024-02-12 01:29:36,408 - user_center_page.py:[34] - [INFO] - 获取性别：get_gender
+2024-02-12 01:29:38,418 - base_page.py:[206] - [INFO] - find:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]定位元素强制等待时间为：2
+2024-02-12 01:29:38,431 - base_page.py:[211] - [INFO] - 调用 find 方法，定位器是['xpath', "//span[text()='别']/parent::div/following-sibling::div"]
+2024-02-12 01:29:38,440 - user_center_page.py:[36] - [INFO] - 性别为女
+2024-02-12 01:29:38,444 - test_user_center.py:[22] - [INFO] - 预期结果：女
+2024-02-12 01:29:38,444 - test_user_center.py:[23] - [INFO] - 实际结果：女
+2024-02-12 01:29:38,444 - test_user_center.py:[27] - [INFO] - 测试用例执行成功
+2024-02-12 01:29:38,444 - test_user_center.py:[28] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 01:32:04,382 - test_user_center.py:[15] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 01:32:04,382 - test_user_center.py:[16] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 01:32:04,382 - test_user_center.py:[17] - [INFO] - 使用参数化，本次参数为：男
+2024-02-12 01:32:04,382 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 01:32:05,394 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 01:32:05,768 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 01:32:15,801 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 01:32:15,801 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 01:32:16,193 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 01:32:16,573 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 01:32:16,943 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 01:32:17,304 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 01:32:17,655 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 01:32:17,657 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 01:32:17,657 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 01:32:18,511 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 01:32:20,800 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]']
+2024-02-12 01:32:20,801 - personal_center_page.py:[13] - [INFO] - 点击编辑资料，进入个人资料页面：goto_user_center_page
+2024-02-12 01:32:21,098 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[text()="编辑资料"]']
+2024-02-12 01:32:21,104 - base_page.py:[288] - [INFO] - 调用 switch_to_window 方法，下标是：-1
+2024-02-12 01:32:21,105 - user_center_page.py:[22] - [INFO] - 编辑性别为男：edit_gender
+2024-02-12 01:32:23,111 - base_page.py:[206] - [INFO] - move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素强制等待时间为：2
+2024-02-12 01:32:23,656 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"], 下标是：None
+2024-02-12 01:32:23,938 - base_page.py:[253] - [INFO] - 调用 finds_and_click 方法，定位器是['xpath', "//div[text()='编辑']"], 下标是1
+2024-02-12 01:32:24,225 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//span[text()="男"]']
+2024-02-12 01:32:24,501 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='确定']"]
+2024-02-12 01:32:24,501 - user_center_page.py:[34] - [INFO] - 获取性别：get_gender
+2024-02-12 01:32:26,505 - base_page.py:[206] - [INFO] - find:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]定位元素强制等待时间为：2
+2024-02-12 01:32:26,526 - base_page.py:[211] - [INFO] - 调用 find 方法，定位器是['xpath', "//span[text()='别']/parent::div/following-sibling::div"]
+2024-02-12 01:32:26,537 - user_center_page.py:[36] - [INFO] - 性别为男
+2024-02-12 01:32:26,541 - test_user_center.py:[23] - [INFO] - 预期结果：男
+2024-02-12 01:32:26,541 - test_user_center.py:[24] - [INFO] - 实际结果：男
+2024-02-12 01:32:26,542 - test_user_center.py:[28] - [INFO] - 测试用例执行成功
+2024-02-12 01:32:26,542 - test_user_center.py:[29] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 01:32:39,047 - test_user_center.py:[15] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 01:32:39,047 - test_user_center.py:[16] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 01:32:39,047 - test_user_center.py:[17] - [INFO] - 使用参数化，本次参数为：女
+2024-02-12 01:32:39,047 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 01:32:40,067 - base_page.py:[206] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 01:32:40,445 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 01:32:50,507 - base_page.py:[297] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 01:32:50,507 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 01:32:50,881 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 01:32:51,262 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 01:32:51,641 - base_page.py:[228] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 01:32:52,012 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 01:32:52,363 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 01:32:52,365 - base_page.py:[306] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 01:32:52,365 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 01:32:53,126 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 01:32:55,221 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]']
+2024-02-12 01:32:55,221 - personal_center_page.py:[13] - [INFO] - 点击编辑资料，进入个人资料页面：goto_user_center_page
+2024-02-12 01:32:55,538 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[text()="编辑资料"]']
+2024-02-12 01:32:55,544 - base_page.py:[288] - [INFO] - 调用 switch_to_window 方法，下标是：-1
+2024-02-12 01:32:55,544 - user_center_page.py:[22] - [INFO] - 编辑性别为女：edit_gender
+2024-02-12 01:32:57,557 - base_page.py:[206] - [INFO] - move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素强制等待时间为：2
+2024-02-12 01:32:58,107 - base_page.py:[279] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"], 下标是：None
+2024-02-12 01:32:58,409 - base_page.py:[253] - [INFO] - 调用 finds_and_click 方法，定位器是['xpath', "//div[text()='编辑']"], 下标是1
+2024-02-12 01:32:58,695 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//span[text()="女"]']
+2024-02-12 01:32:58,973 - base_page.py:[220] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='确定']"]
+2024-02-12 01:32:58,973 - user_center_page.py:[34] - [INFO] - 获取性别：get_gender
+2024-02-12 01:33:00,992 - base_page.py:[206] - [INFO] - find:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]定位元素强制等待时间为：2
+2024-02-12 01:33:01,013 - base_page.py:[211] - [INFO] - 调用 find 方法，定位器是['xpath', "//span[text()='别']/parent::div/following-sibling::div"]
+2024-02-12 01:33:01,025 - user_center_page.py:[36] - [INFO] - 性别为女
+2024-02-12 01:33:01,030 - test_user_center.py:[23] - [INFO] - 预期结果：女
+2024-02-12 01:33:01,030 - test_user_center.py:[24] - [INFO] - 实际结果：女
+2024-02-12 01:33:01,030 - test_user_center.py:[28] - [INFO] - 测试用例执行成功
+2024-02-12 01:33:01,030 - test_user_center.py:[29] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 12:15:05,522 - test_user_center.py:[15] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 12:15:05,522 - test_user_center.py:[16] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 12:15:05,522 - test_user_center.py:[17] - [INFO] - 使用参数化，本次参数为：男
+2024-02-12 12:15:05,522 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 12:15:06,544 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 12:15:06,931 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 12:15:17,014 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 12:15:17,014 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 12:15:17,370 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 12:15:17,737 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 12:15:18,094 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 12:15:18,474 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 12:15:18,856 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 12:15:18,858 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 12:15:18,858 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 12:15:19,607 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 12:15:21,835 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]']
+2024-02-12 12:15:21,836 - personal_center_page.py:[13] - [INFO] - 点击编辑资料，进入个人资料页面：goto_user_center_page
+2024-02-12 12:15:22,175 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[text()="编辑资料"]']
+2024-02-12 12:15:22,184 - base_page.py:[289] - [INFO] - 调用 switch_to_window 方法，下标是：-1
+2024-02-12 12:15:22,185 - user_center_page.py:[22] - [INFO] - 编辑性别为男：edit_gender
+2024-02-12 12:15:24,193 - base_page.py:[207] - [INFO] - move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素强制等待时间为：2
+2024-02-12 12:15:24,748 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"], 下标是：None
+2024-02-12 12:15:25,036 - base_page.py:[254] - [INFO] - 调用 finds_and_click 方法，定位器是['xpath', "//div[text()='编辑']"], 下标是1
+2024-02-12 12:15:25,327 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//span[text()="男"]']
+2024-02-12 12:15:25,602 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='确定']"]
+2024-02-12 12:15:25,602 - user_center_page.py:[34] - [INFO] - 获取性别：get_gender
+2024-02-12 12:15:27,607 - base_page.py:[207] - [INFO] - find:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]定位元素强制等待时间为：2
+2024-02-12 12:15:27,636 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', "//span[text()='别']/parent::div/following-sibling::div"]
+2024-02-12 12:15:27,650 - user_center_page.py:[36] - [INFO] - 性别为男
+2024-02-12 12:15:27,656 - test_user_center.py:[23] - [INFO] - 预期结果：男
+2024-02-12 12:15:27,656 - test_user_center.py:[24] - [INFO] - 实际结果：男
+2024-02-12 12:15:27,656 - test_user_center.py:[28] - [INFO] - 测试用例执行成功
+2024-02-12 12:15:27,657 - test_user_center.py:[29] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 12:15:41,745 - test_user_center.py:[15] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 12:15:41,745 - test_user_center.py:[16] - [INFO] - 测试用例名称：test_edit_user_gender
+2024-02-12 12:15:41,745 - test_user_center.py:[17] - [INFO] - 使用参数化，本次参数为：女
+2024-02-12 12:15:41,745 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 12:15:42,761 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 12:15:43,142 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 12:15:53,217 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 12:15:53,218 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 12:15:53,793 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 12:15:54,304 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 12:15:54,844 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 12:15:55,328 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 12:15:55,826 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 12:15:56,205 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 12:15:56,205 - main_page.py:[32] - [INFO] - 进入个人中心页面：goto_personal_center_page
+2024-02-12 12:15:57,985 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['id', 'toolbar-search-input'], 下标是：None
+2024-02-12 12:15:59,242 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]']
+2024-02-12 12:15:59,242 - personal_center_page.py:[13] - [INFO] - 点击编辑资料，进入个人资料页面：goto_user_center_page
+2024-02-12 12:15:59,640 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//a[text()="编辑资料"]']
+2024-02-12 12:15:59,646 - base_page.py:[289] - [INFO] - 调用 switch_to_window 方法，下标是：-1
+2024-02-12 12:15:59,646 - user_center_page.py:[22] - [INFO] - 编辑性别为女：edit_gender
+2024-02-12 12:16:01,655 - base_page.py:[207] - [INFO] - move_to_element:['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"]定位元素强制等待时间为：2
+2024-02-12 12:16:02,327 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']"], 下标是：None
+2024-02-12 12:16:02,729 - base_page.py:[254] - [INFO] - 调用 finds_and_click 方法，定位器是['xpath', "//div[text()='编辑']"], 下标是1
+2024-02-12 12:16:03,130 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//span[text()="女"]']
+2024-02-12 12:16:03,500 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='确定']"]
+2024-02-12 12:16:03,500 - user_center_page.py:[34] - [INFO] - 获取性别：get_gender
+2024-02-12 12:16:05,521 - base_page.py:[207] - [INFO] - find:['xpath', "//span[text()='别']/parent::div/following-sibling::div"]定位元素强制等待时间为：2
+2024-02-12 12:16:05,544 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', "//span[text()='别']/parent::div/following-sibling::div"]
+2024-02-12 12:16:05,556 - user_center_page.py:[36] - [INFO] - 性别为男
+女
+2024-02-12 12:16:05,562 - test_user_center.py:[23] - [INFO] - 预期结果：女
+2024-02-12 12:16:05,563 - test_user_center.py:[24] - [INFO] - 实际结果：男
+女
+2024-02-12 12:16:05,928 - test_user_center.py:[33] - [ERROR] - 测试用例执行失败
+2024-02-12 12:16:05,928 - test_user_center.py:[34] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 13:39:54,727 - setup_util.py:[41] - [ERROR] - GIF文件创建失败
+2024-02-12 13:41:47,268 - setup_util.py:[41] - [ERROR] - GIF文件创建失败
+2024-02-12 13:44:35,139 - setup_util.py:[41] - [ERROR] - GIF文件创建失败
+2024-02-12 13:45:16,157 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 13:45:16,157 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 13:45:16,157 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 13:45:17,179 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 13:45:17,566 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 13:45:27,602 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 13:45:27,602 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 13:45:28,010 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 13:45:28,448 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 13:45:28,834 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 13:45:29,201 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 13:45:29,591 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 13:45:29,596 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 13:45:29,596 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 13:45:31,512 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 13:45:31,522 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 13:45:31,532 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 13:45:31,532 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 13:45:31,532 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 13:45:31,868 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 13:45:31,868 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 13:47:29,614 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 13:47:29,614 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 13:47:29,614 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 13:47:30,628 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 13:47:31,046 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 13:47:41,117 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 13:47:41,117 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 13:47:41,510 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 13:47:41,886 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 13:47:42,251 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 13:47:42,635 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 13:47:42,985 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 13:47:43,004 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 13:47:43,004 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 13:47:45,262 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 13:47:45,295 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 13:47:45,312 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 13:47:45,312 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 13:47:45,312 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 13:47:45,635 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 13:47:45,635 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 13:48:39,688 - zip_file.py:[23] - [ERROR] - 文件：./allure_report 压缩失败，错误：[Errno 2] No such file or directory: './allure_report_zip/report.zip'
+2024-02-12 13:51:46,846 - zip_file.py:[23] - [ERROR] - 文件：./allure_report 压缩失败，错误：[Errno 2] No such file or directory: './allure_report_zip/report.zip'
+2024-02-12 13:51:52,774 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 13:51:52,774 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 13:51:52,774 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 13:51:53,794 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 13:51:54,203 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 13:52:04,269 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 13:52:04,269 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 13:52:04,719 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 13:52:05,084 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 13:52:05,465 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 13:52:05,831 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 13:52:06,196 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 13:52:06,196 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 13:52:06,196 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 13:52:08,230 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 13:52:08,270 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 13:52:08,278 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 13:52:08,278 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 13:52:08,280 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 13:52:08,592 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 13:52:08,592 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 13:58:00,434 - zip_file.py:[35] - [ERROR] - 压缩文件夹 ./allure_report 失败，错误：[Errno 2] No such file or directory: './allure_report_zip/report.zip'
+2024-02-12 13:58:47,353 - zip_file.py:[32] - [INFO] - 文件夹 ./allure_report 已成功压缩为 ./allure_report_zip/report.zip
+2024-02-12 14:00:11,756 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 14:00:11,756 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 14:00:11,756 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 14:00:12,761 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 14:00:13,152 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 14:00:23,231 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 14:00:23,231 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 14:00:23,675 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 14:00:24,035 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 14:00:24,391 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 14:00:24,775 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 14:00:25,133 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 14:00:25,149 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 14:00:25,149 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 14:00:28,218 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 14:00:28,228 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 14:00:28,228 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 14:00:28,228 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 14:00:28,228 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 14:00:28,559 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 14:00:28,559 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 14:03:19,118 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 14:03:19,118 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 14:03:19,118 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 14:03:20,126 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 14:03:20,685 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 14:03:30,744 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 14:03:30,744 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 14:03:31,250 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 14:03:31,680 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 14:03:32,077 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 14:03:32,490 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 14:03:32,903 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 14:03:32,909 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 14:03:32,909 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 14:03:36,075 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 14:03:36,085 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 14:03:36,095 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 14:03:36,095 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 14:03:36,096 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 14:03:36,435 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 14:03:36,435 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 14:05:06,583 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 14:05:06,583 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 14:05:06,583 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 14:05:07,592 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 14:05:07,991 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 14:05:18,072 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 14:05:18,072 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 14:05:18,473 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 14:05:18,845 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 14:05:19,213 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 14:05:19,586 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 14:05:19,958 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 14:05:19,962 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 14:05:19,962 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 14:05:22,027 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 14:05:22,027 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 14:05:22,042 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 14:05:22,042 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 14:05:22,042 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 14:05:22,396 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 14:05:22,396 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 14:07:15,898 - zip_file.py:[36] - [ERROR] - 压缩文件夹 ./allure_report 失败，错误：[Errno 2] No such file or directory: './allure_report_zip/report.zip'
+2024-02-12 14:07:33,240 - zip_file.py:[33] - [INFO] - 文件夹 ./allure_report 已成功压缩为 ../allure_report_zip/report.zip
+2024-02-12 14:28:19,030 - zip_file.py:[33] - [INFO] - 文件夹 D:\十九\Desktop\测开教程\WebUI/allure_report 已成功压缩为 D:\十九\Desktop\测开教程\WebUI/report.zip
+2024-02-12 14:28:42,437 - zip_file.py:[33] - [INFO] - 文件夹 D:\十九\Desktop\测开教程\WebUI/allure_report 已成功压缩为 D:\十九\Desktop\测开教程\WebUI/allure_report_zip/report.zip
+2024-02-12 14:29:10,479 - zip_file.py:[33] - [INFO] - 文件夹 D:\十九\Desktop\测开教程\WebUI/allure_report 已成功压缩为 D:\十九\Desktop\测开教程\WebUI/allure_report_zip/report.zip
+2024-02-12 14:29:57,957 - zip_file.py:[33] - [INFO] - 文件夹 D:\十九\Desktop\测开教程\WebUI/allure_report 已成功压缩为 D:\十九\Desktop\测开教程\WebUI/allure_report_zip/report.zip
+2024-02-12 14:30:40,885 - zip_file.py:[33] - [INFO] - 文件夹 D:\十九\Desktop\测开教程\WebUI/allure_report 已成功压缩为 D:\十九\Desktop\测开教程\WebUI/allure_report_zip/report.zip
+2024-02-12 14:35:06,785 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 14:35:06,785 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 14:35:06,785 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 14:35:07,818 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 14:35:08,211 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 14:35:18,319 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 14:35:18,319 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 14:35:18,767 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 14:35:19,206 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 14:35:19,604 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 14:35:20,014 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 14:35:20,429 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 14:35:20,440 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 14:35:20,440 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 14:35:22,928 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 14:35:22,938 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 14:35:22,949 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 14:35:22,949 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 14:35:22,949 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 14:35:23,260 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 14:35:23,260 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 14:36:57,304 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 14:36:57,304 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 14:36:57,304 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 14:36:58,319 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 14:36:58,901 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 14:37:08,992 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 14:37:08,992 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 14:37:09,543 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 14:37:10,027 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 14:37:10,533 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 14:37:11,067 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 14:37:11,603 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 14:37:12,065 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 14:37:12,065 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 14:37:13,562 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 14:37:13,582 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 14:37:13,593 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 14:37:13,593 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 14:37:13,593 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 14:37:14,048 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 14:37:14,048 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 14:38:01,334 - zip_file.py:[33] - [INFO] - 文件夹 D:\十九\Desktop\测开教程\WebUI/allure_report 已成功压缩为 D:\十九\Desktop\测开教程\WebUI/allure_report_zip/report.zip
+2024-02-12 14:40:58,486 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 14:40:58,486 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 14:40:58,486 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 14:40:59,515 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 14:40:59,925 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 14:41:09,968 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 14:41:09,968 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 14:41:10,347 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 14:41:10,719 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 14:41:11,068 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 14:41:11,441 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 14:41:11,825 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 14:41:11,825 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 14:41:11,825 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 14:41:13,870 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 14:41:13,889 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 14:41:13,897 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 14:41:13,897 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 14:41:13,897 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 14:41:14,202 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 14:41:14,202 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 14:43:28,169 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 14:43:28,169 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 14:43:28,169 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 14:43:29,181 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 14:43:29,567 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 14:43:39,606 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 14:43:39,606 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 14:43:39,990 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 14:43:40,368 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 14:43:40,763 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 14:43:41,125 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 14:43:41,490 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 14:43:41,490 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 14:43:41,490 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 14:43:44,463 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 14:43:55,029 - base_page.py:[215] - [ERROR] - 路径：D:\十九\Desktop\测开教程\WebUI\py_yaml\main_page.yaml，执行功能是:get_login_name，调用方法是:find，定位器是:['xpath', '//p[text()="测试小周965"]']，定位元素失败，错误信息：Message: 元素超时未找到
+Stacktrace:
+	GetHandleVerifier [0x00B36EE3+174339]
+	(No symbol) [0x00A60A51]
+	(No symbol) [0x00776FF6]
+	(No symbol) [0x007A9876]
+	(No symbol) [0x007A9C2C]
+	(No symbol) [0x007DBD42]
+	(No symbol) [0x007C7054]
+	(No symbol) [0x007DA104]
+	(No symbol) [0x007C6DA6]
+	(No symbol) [0x007A1034]
+	(No symbol) [0x007A1F8D]
+	GetHandleVerifier [0x00BD4B1C+820540]
+	sqlite3_dbdata_init [0x00C953EE+653550]
+	sqlite3_dbdata_init [0x00C94E09+652041]
+	sqlite3_dbdata_init [0x00C897CC+605388]
+	sqlite3_dbdata_init [0x00C95D9B+656027]
+	(No symbol) [0x00A6FE6C]
+	(No symbol) [0x00A683B8]
+	(No symbol) [0x00A684DD]
+	(No symbol) [0x00A55818]
+	BaseThreadInitThunk [0x766D7BA9+25]
+	RtlInitializeExceptionChain [0x7721BD2B+107]
+	RtlClearBits [0x7721BCAF+191]
+
+2024-02-12 14:44:04,641 - zip_file.py:[33] - [INFO] - 文件夹 D:\十九\Desktop\测开教程\WebUI/allure_report 已成功压缩为 D:\十九\Desktop\测开教程\WebUI/allure_report_zip/report.zip
+2024-02-12 14:46:28,000 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 14:46:28,000 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 14:46:28,000 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 14:46:29,016 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 14:46:29,427 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 14:46:39,517 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 14:46:39,517 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 14:46:39,897 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 14:46:40,262 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 14:46:40,625 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 14:46:40,990 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 14:46:41,375 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 14:46:41,375 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 14:46:41,375 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 14:46:43,799 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 14:46:43,809 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 14:46:43,819 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 14:46:43,819 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 14:46:43,819 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 14:46:44,127 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 14:46:44,127 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 14:46:53,810 - zip_file.py:[33] - [INFO] - 文件夹 D:\十九\Desktop\测开教程\WebUI/allure_report 已成功压缩为 D:\十九\Desktop\测开教程\WebUI/allure_report_zip/report.zip
+2024-02-12 14:46:59,927 - run.py:[32] - [INFO] - 邮件发送成功
+2024-02-12 14:50:18,493 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 14:50:18,493 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 14:50:18,494 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 14:50:19,514 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 14:50:19,928 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 14:50:29,963 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 14:50:29,963 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 14:50:30,426 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 14:50:30,788 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 14:50:31,146 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 14:50:31,519 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 14:50:31,935 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 14:50:31,946 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 14:50:31,946 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 14:50:34,348 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 14:50:34,358 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 14:50:34,365 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 14:50:34,365 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 14:50:34,365 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 14:50:34,699 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 14:50:34,699 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 14:50:44,368 - zip_file.py:[33] - [INFO] - 文件夹 D:\十九\Desktop\测开教程\WebUI/allure_report 已成功压缩为 D:\十九\Desktop\测开教程\WebUI/allure_report_zip/report.zip
+2024-02-12 14:50:52,913 - run.py:[32] - [INFO] - 邮件发送成功
+2024-02-12 14:53:35,838 - test_login.py:[11] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 14:53:35,838 - test_login.py:[12] - [INFO] - 测试用例名称：test_login
+2024-02-12 14:53:35,838 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 14:53:36,848 - base_page.py:[207] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素强制等待时间为：1
+2024-02-12 14:53:37,233 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//a[text()='登录']"]
+2024-02-12 14:53:47,311 - base_page.py:[298] - [INFO] - 调用 switch_to_frame 方法，目标是：passport_iframe
+2024-02-12 14:53:47,311 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 14:53:47,694 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', "//span[text()='密码登录']"]
+2024-02-12 14:53:48,064 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']
+2024-02-12 14:53:48,437 - base_page.py:[229] - [INFO] - 调用 find_and_send_keys 方法，定位器是['xpath', '//input[@placeholder="密码"]']
+2024-02-12 14:53:48,789 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 14:53:49,153 - base_page.py:[221] - [INFO] - 调用 find_and_click 方法，定位器是['xpath', '//button[text()="登录"]']
+2024-02-12 14:53:49,153 - base_page.py:[307] - [INFO] - 调用 switch_to_content 方法，目标是：default_content
+2024-02-12 14:53:49,153 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 14:53:52,048 - base_page.py:[280] - [INFO] - 调用 move_to_element 方法，定位器是['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是：0
+2024-02-12 14:53:52,081 - base_page.py:[212] - [INFO] - 调用 find 方法，定位器是['xpath', '//p[text()="测试小周965"]']
+2024-02-12 14:53:52,088 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 14:53:52,088 - test_login.py:[16] - [INFO] - 预期结果：测试小周9651
+2024-02-12 14:53:52,088 - test_login.py:[17] - [INFO] - 实际结果：测试小周965
+2024-02-12 14:53:52,400 - test_login.py:[24] - [ERROR] - 账号密码登录失败
+2024-02-12 14:53:52,401 - test_login.py:[25] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 14:54:02,036 - zip_file.py:[33] - [INFO] - 文件夹 D:\十九\Desktop\测开教程\WebUI/allure_report 已成功压缩为 D:\十九\Desktop\测开教程\WebUI/allure_report_zip/report.zip
+2024-02-12 14:54:09,244 - run.py:[32] - [INFO] - 邮件发送成功
+2024-02-12 21:27:30,241 - test_login.py:[17] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 21:27:30,241 - test_login.py:[18] - [INFO] - 测试用例名称：test_login
+2024-02-12 21:27:30,241 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 21:27:31,260 - base_page.py:[215] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素前，进行强制等待时间为:1
+2024-02-12 21:27:31,648 - base_page.py:[229] - [INFO] - 调用 find_and_click 方法，定位器是:['xpath', "//a[text()='登录']"]
+2024-02-12 21:27:41,733 - base_page.py:[308] - [INFO] - 调用 switch_to_frame 方法，目标是:passport_iframe
+2024-02-12 21:27:41,733 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 21:27:42,124 - base_page.py:[229] - [INFO] - 调用 find_and_click 方法，定位器是:['xpath', "//span[text()='密码登录']"]
+2024-02-12 21:27:42,515 - base_page.py:[237] - [INFO] - 调用 find_and_send_keys 方法，定位器是:['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']，输入文本是:15314824648
+2024-02-12 21:27:42,896 - base_page.py:[237] - [INFO] - 调用 find_and_send_keys 方法，定位器是:['xpath', '//input[@placeholder="密码"]']，输入文本是:123456789qQ
+2024-02-12 21:27:43,287 - base_page.py:[229] - [INFO] - 调用 find_and_click 方法，定位器是:['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 21:27:43,679 - base_page.py:[229] - [INFO] - 调用 find_and_click 方法，定位器是:['xpath', '//button[text()="登录"]']
+2024-02-12 21:27:43,682 - base_page.py:[317] - [INFO] - 调用 switch_to_content 方法，目标是:default_content
+2024-02-12 21:27:43,682 - main_page.py:[24] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 21:27:48,269 - base_page.py:[290] - [INFO] - 调用 move_to_element 方法，定位器是:['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是:0
+2024-02-12 21:27:48,279 - base_page.py:[220] - [INFO] - 调用 find 方法，定位器是:['xpath', '//p[text()="测试小周965"]']
+2024-02-12 21:27:48,289 - main_page.py:[27] - [INFO] - 名称是: 测试小周965
+2024-02-12 21:27:48,289 - test_login.py:[22] - [INFO] - 预期结果：测试小周9651
+2024-02-12 21:27:48,289 - test_login.py:[23] - [INFO] - 实际结果：测试小周965
+2024-02-12 21:27:48,620 - test_login.py:[30] - [ERROR] - 账号密码登录失败
+2024-02-12 21:27:48,620 - test_login.py:[31] - [INFO] - ---------------UI自动化结束---------------
+
+2024-02-12 21:37:15,206 - test_login.py:[17] - [INFO] - ---------------UI自动化开始---------------
+2024-02-12 21:37:15,206 - test_login.py:[18] - [INFO] - 测试用例名称：test_login
+2024-02-12 21:37:15,206 - main_page.py:[12] - [INFO] - 点击登录按钮：click_login
+2024-02-12 21:37:16,227 - base_page.py:[215] - [INFO] - find_and_click:['xpath', "//a[text()='登录']"]定位元素前，进行强制等待时间为:1
+2024-02-12 21:37:16,649 - base_page.py:[229] - [INFO] - 调用 find_and_click 方法，定位器是:['xpath', "//a[text()='登录']"]
+2024-02-12 21:37:26,704 - base_page.py:[308] - [INFO] - 调用 switch_to_frame 方法，目标是:passport_iframe
+2024-02-12 21:37:26,704 - main_page.py:[18] - [INFO] - 使用账户密码登录：use_account_password_login
+2024-02-12 21:37:27,146 - base_page.py:[229] - [INFO] - 调用 find_and_click 方法，定位器是:['xpath', "//span[text()='密码登录']"]
+2024-02-12 21:37:27,540 - base_page.py:[237] - [INFO] - 调用 find_and_send_keys 方法，定位器是:['xpath', '//input[@placeholder="手机号/邮箱/用户名"]']，输入文本是:15314824648
+2024-02-12 21:37:27,930 - base_page.py:[237] - [INFO] - 调用 find_and_send_keys 方法，定位器是:['xpath', '//input[@placeholder="密码"]']，输入文本是:123456789qQ
+2024-02-12 21:37:28,329 - base_page.py:[229] - [INFO] - 调用 find_and_click 方法，定位器是:['xpath', '//i[@class="icon icon-nocheck"]']
+2024-02-12 21:37:28,717 - base_page.py:[229] - [INFO] - 调用 find_and_click 方法，定位器是:['xpath', '//button[text()="登录"]']
+2024-02-12 21:37:28,720 - base_page.py:[317] - [INFO] - 调用 switch_to_content 方法，目标是:default_content
+2024-02-12 21:37:28,720 - main_page.py:[20] - [INFO] - 登录账号是: 15314824648，密码是: 123456789qQ
+2024-02-12 21:37:28,720 - main_page.py:[25] - [INFO] - 获取登录账号名称：get_login_name
+2024-02-12 21:37:31,063 - base_page.py:[290] - [INFO] - 调用 move_to_element 方法，定位器是:['xpath', '//a[@data-report-query="spm=3001.5343"]'], 下标是:0
+2024-02-12 21:37:31,071 - base_page.py:[220] - [INFO] - 调用 find 方法，定位器是:['xpath', '//p[text()="测试小周965"]']
+2024-02-12 21:37:31,081 - main_page.py:[28] - [INFO] - 名称是: 测试小周965
+2024-02-12 21:37:31,081 - test_login.py:[23] - [INFO] - 预期结果：测试小周9651
+2024-02-12 21:37:31,081 - test_login.py:[24] - [INFO] - 实际结果：测试小周965
+2024-02-12 21:37:31,419 - test_login.py:[31] - [ERROR] - 账号密码登录失败
+2024-02-12 21:37:31,419 - test_login.py:[32] - [INFO] - ---------------UI自动化结束---------------
+

@@ -1,0 +1,40 @@
+demo:
+  - action: ''
+    locator: [ 'xpath', '' ]
+    index: ~
+    text: ~
+    sleep: ~
+
+upload_image:
+  - action: 'find_and_click'
+    locator: [ 'id', 'cke_28' ]
+    index: ~
+    text: ~
+    sleep: ~
+  - action: 'find_and_click'
+    locator: [ 'xpath', '//span[text()="选择图片"]' ]
+    index: ~
+    text: ~
+    sleep: ~
+  - action: 'upload_file'
+    locator: ~
+    index: ~
+    text: $path
+    sleep: ~
+
+get_upload_image_element:
+  - action: 'switch_to_frame'
+    locator: ~
+    index: ~
+    text: 0
+    sleep: ~
+  - action: 'find'
+    locator: [ 'xpath', '//span[@data-cke-display-name="图像"]' ]
+    index: ~
+    text: ~
+    sleep: ~
+  - action: 'switch_to_content'
+    locator: ~
+    index: ~
+    text: 'default_content'
+    sleep: ~

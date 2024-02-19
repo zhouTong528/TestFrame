@@ -1,0 +1,41 @@
+[ {
+  "uid" : "9364d390cf0ea498",
+  "name" : "使用正确的账号密码登录",
+  "time" : {
+    "start" : 1708188718213,
+    "stop" : 1708188738270,
+    "duration" : 20057
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fe32683696b6d0f",
+  "name" : "上传5M以下图片",
+  "time" : {
+    "start" : 1708188746535,
+    "stop" : 1708188770880,
+    "duration" : 24345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37d223f78a07ecfc",
+  "name" : "编辑用户性别",
+  "time" : {
+    "start" : 1708188778278,
+    "stop" : 1708188798909,
+    "duration" : 20631
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5bcfe22b24b79cc",
+  "name" : "编辑用户性别",
+  "time" : {
+    "start" : 1708188806561,
+    "stop" : 1708188827397,
+    "duration" : 20836
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

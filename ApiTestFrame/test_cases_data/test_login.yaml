@@ -1,0 +1,22 @@
+
+testLogin02:
+  - name: "正确账号登录"
+    account: 1
+    pwd: 12356
+    expect: "登录成功"
+  - name: "错误账号登录"
+    account: 1
+    pwd: 123562222
+    expect: "登录失败，密码错误"
+  - name: "无账号登录"
+    account: ~
+    pwd: 12356
+    expect: "登录失败，请输入账号"
+  - name: "无密码登录"
+    account: 1
+    pwd: ~
+    expect: "登录失败，请输入密码"
+
+
+
+

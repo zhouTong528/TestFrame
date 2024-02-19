@@ -1,0 +1,122 @@
+{
+  "uid" : "ecbb7bc99ddcbb89",
+  "name" : "test_login[无密码登录]",
+  "fullName" : "test_cases.test_login.TestLoginApis#test_login",
+  "historyId" : "422074f7e626eeb92db593123ce657d8",
+  "time" : {
+    "start" : 1708172462031,
+    "stop" : 1708172462031,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '登录成功' == '登录失败，请输入密码'\n  - 登录失败，请输入密码\n  + 登录成功",
+  "statusTrace" : "self = <test_cases.test_login.TestLoginApis object at 0x00000215E331C780>\nyaml = {'account': 1, 'expect': '登录失败，请输入密码', 'name': '无密码登录', 'pwd': None}\n\n    @pytest.mark.parametrize(\"yaml\", get_datas(yaml_datas_path, 'testLogin02'),\n                             ids=get_ids(yaml_datas_path, 'testLogin02'))\n    def test_login(self, yaml):\n        logging.info('---------------接口自动化开始---------------')\n        logging.info('测试用例名称：test_login')\n        # 获取参数\n        account = yaml['account']\n        pwd = yaml['pwd']\n        expect = yaml['expect']\n    \n        # 执行测试\n        print(\"正在执行登录，账号是{},密码是{}\".format(account, pwd))\n        res = {\"msg\": '登录成功', 'token': '12345678922qwe'}\n        msg = json_res(res, \"$..msg\")\n        logging.info(\"实际结果是：{}\".format(msg))\n        logging.info(\"预期结果是：{}\".format(expect))\n    \n        # 断言\n        try:\n            assert msg == expect\n            if msg == \"登录成功\":\n                token = json_res(res, \"$..token\")\n                logging.info(\"token是：{}\".format(token))\n                assert token != \"\"\n            logging.info(\"执行登录测试成功\")\n            logging.info('---------------接口自动化结束---------------\\n')\n        except AssertionError as e:\n            logging.error(\"执行登录测试失败\")\n            logging.info('---------------接口自动化结束---------------\\n')\n>           raise e\n\ntest_cases\\test_login.py:46: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_cases.test_login.TestLoginApis object at 0x00000215E331C780>\nyaml = {'account': 1, 'expect': '登录失败，请输入密码', 'name': '无密码登录', 'pwd': None}\n\n    @pytest.mark.parametrize(\"yaml\", get_datas(yaml_datas_path, 'testLogin02'),\n                             ids=get_ids(yaml_datas_path, 'testLogin02'))\n    def test_login(self, yaml):\n        logging.info('---------------接口自动化开始---------------')\n        logging.info('测试用例名称：test_login')\n        # 获取参数\n        account = yaml['account']\n        pwd = yaml['pwd']\n        expect = yaml['expect']\n    \n        # 执行测试\n        print(\"正在执行登录，账号是{},密码是{}\".format(account, pwd))\n        res = {\"msg\": '登录成功', 'token': '12345678922qwe'}\n        msg = json_res(res, \"$..msg\")\n        logging.info(\"实际结果是：{}\".format(msg))\n        logging.info(\"预期结果是：{}\".format(expect))\n    \n        # 断言\n        try:\n>           assert msg == expect\nE           AssertionError: assert '登录成功' == '登录失败，请输入密码'\nE             - 登录失败，请输入密码\nE             + 登录成功\n\ntest_cases\\test_login.py:36: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "tmp_path_factory",
+    "time" : {
+      "start" : 1708172461910,
+      "stop" : 1708172461910,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "worker_id",
+    "time" : {
+      "start" : 1708172461910,
+      "stop" : 1708172461910,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1708172461910,
+      "stop" : 1708172461983,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '登录成功' == '登录失败，请输入密码'\n  - 登录失败，请输入密码\n  + 登录成功",
+    "statusTrace" : "self = <test_cases.test_login.TestLoginApis object at 0x00000215E331C780>\nyaml = {'account': 1, 'expect': '登录失败，请输入密码', 'name': '无密码登录', 'pwd': None}\n\n    @pytest.mark.parametrize(\"yaml\", get_datas(yaml_datas_path, 'testLogin02'),\n                             ids=get_ids(yaml_datas_path, 'testLogin02'))\n    def test_login(self, yaml):\n        logging.info('---------------接口自动化开始---------------')\n        logging.info('测试用例名称：test_login')\n        # 获取参数\n        account = yaml['account']\n        pwd = yaml['pwd']\n        expect = yaml['expect']\n    \n        # 执行测试\n        print(\"正在执行登录，账号是{},密码是{}\".format(account, pwd))\n        res = {\"msg\": '登录成功', 'token': '12345678922qwe'}\n        msg = json_res(res, \"$..msg\")\n        logging.info(\"实际结果是：{}\".format(msg))\n        logging.info(\"预期结果是：{}\".format(expect))\n    \n        # 断言\n        try:\n            assert msg == expect\n            if msg == \"登录成功\":\n                token = json_res(res, \"$..token\")\n                logging.info(\"token是：{}\".format(token))\n                assert token != \"\"\n            logging.info(\"执行登录测试成功\")\n            logging.info('---------------接口自动化结束---------------\\n')\n        except AssertionError as e:\n            logging.error(\"执行登录测试失败\")\n            logging.info('---------------接口自动化结束---------------\\n')\n>           raise e\n\ntest_cases\\test_login.py:46: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_cases.test_login.TestLoginApis object at 0x00000215E331C780>\nyaml = {'account': 1, 'expect': '登录失败，请输入密码', 'name': '无密码登录', 'pwd': None}\n\n    @pytest.mark.parametrize(\"yaml\", get_datas(yaml_datas_path, 'testLogin02'),\n                             ids=get_ids(yaml_datas_path, 'testLogin02'))\n    def test_login(self, yaml):\n        logging.info('---------------接口自动化开始---------------')\n        logging.info('测试用例名称：test_login')\n        # 获取参数\n        account = yaml['account']\n        pwd = yaml['pwd']\n        expect = yaml['expect']\n    \n        # 执行测试\n        print(\"正在执行登录，账号是{},密码是{}\".format(account, pwd))\n        res = {\"msg\": '登录成功', 'token': '12345678922qwe'}\n        msg = json_res(res, \"$..msg\")\n        logging.info(\"实际结果是：{}\".format(msg))\n        logging.info(\"预期结果是：{}\".format(expect))\n    \n        # 断言\n        try:\n>           assert msg == expect\nE           AssertionError: assert '登录成功' == '登录失败，请输入密码'\nE             - 登录失败，请输入密码\nE             + 登录成功\n\ntest_cases\\test_login.py:36: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fae23a70d38fa983",
+      "name" : "log",
+      "source" : "fae23a70d38fa983.txt",
+      "type" : "text/plain",
+      "size" : 677
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginApis"
+  }, {
+    "name" : "host",
+    "value" : "椰子水"
+  }, {
+    "name" : "thread",
+    "value" : "15784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "yaml",
+    "value" : "{'name': '无密码登录', 'account': 1, 'pwd': None, 'expect': '登录失败，请输入密码'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecbb7bc99ddcbb89.json",
+  "parameterValues" : [ "{'name': '无密码登录', 'account': 1, 'pwd': None, 'expect': '登录失败，请输入密码'}" ]
+}

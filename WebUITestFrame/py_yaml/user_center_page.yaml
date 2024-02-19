@@ -1,0 +1,46 @@
+
+demo:
+  - action: ''
+    locator: [ 'xpath', "" ]
+    index: ~
+    text: ~
+    sleep: ~
+
+
+
+get_user_names:
+  - action: 'finds'
+    locator: ['xpath', '//div[text()="测试小周965"]']
+    index: ~
+    text: ~
+    sleep: ~
+
+
+edit_gender:
+  - action: 'move_to_element'
+    locator: [ 'xpath', "//span[text()='ID']/parent::div/parent::li/following-sibling::li/descendant ::span[text()='性']" ]
+    index: ~
+    text: ~
+    sleep: 2   # 等待页面刷新，页面会跳动
+  - action: 'finds_and_click'
+    locator: [ 'xpath', "//div[text()='编辑']" ]
+    index: 1
+    text: ~
+    sleep: ~
+  - action: 'find_and_click'
+    locator: [ 'xpath', $gender ]
+    index: ~
+    text: ~
+    sleep: ~
+  - action: 'find_and_click'
+    locator: [ 'xpath', "//span[text()='确定']" ]
+    index: ~
+    text: ~
+    sleep: ~
+
+get_gender:
+  - action: 'find'
+    locator: [ 'xpath', "//span[text()='别']/parent::div/following-sibling::div" ]
+    index: ~
+    text: ~
+    sleep: 2      #等待页面刷新

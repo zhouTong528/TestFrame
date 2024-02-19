@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '测试小周965' == '测试小周9651'\n  - 测试小周9651\n  ?        -\n  + 测试小周965",
+      "children" : [ {
+        "name" : "使用正确的账号密码登录",
+        "uid" : "9364d390cf0ea498",
+        "parentUid" : "f1046c87b590692f793fd35d2492bf89",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708188718213,
+          "stop" : 1708188738270,
+          "duration" : 20057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1046c87b590692f793fd35d2492bf89"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

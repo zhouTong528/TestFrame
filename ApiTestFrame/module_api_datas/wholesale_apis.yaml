@@ -1,0 +1,27 @@
+demo:
+  api: ~
+  method: ~
+  headers: ~
+  params: ~
+  data: ~
+  json: ~
+  files: ~
+
+
+submit_wholesale_order_api:
+  api: /sale/submitWholesaleOrder
+  method: "post"
+  headers: {"token": $token}
+  params: ~
+  data: ~
+  json: {"contPerson": $contPerson, "goods": $goods}
+  files: ~
+
+get_contPerson_info_api:
+  api: /sale/customer/getContPersonInfo
+  method: "get"
+  headers: {"token": $token}
+  params: {"cust_name": $cust_name}
+  data: ~
+  json: ~
+  files: ~

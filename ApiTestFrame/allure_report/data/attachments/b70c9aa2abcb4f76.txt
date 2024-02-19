@@ -1,0 +1,4 @@
+[32mINFO    [0m test_cases.test_login:test_login.py:49 ---------------接口自动化开始---------------
+[32mINFO    [0m test_cases.test_login:test_login.py:50 测试用例名称：test_register
+[32mINFO    [0m test_cases.test_login:test_login.py:54 token是：0.40959380394939005
+[32mINFO    [0m test_cases.test_login:test_login.py:58 ---------------接口自动化结束---------------

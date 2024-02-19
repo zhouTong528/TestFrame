@@ -1,0 +1,51 @@
+[ {
+  "uid" : "67c361d0549312c0",
+  "name" : "test_login[错误账号登录]",
+  "time" : {
+    "start" : 1708172461963,
+    "stop" : 1708172461963,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ef02190079e7435",
+  "name" : "test_register",
+  "time" : {
+    "start" : 1708172461973,
+    "stop" : 1708172461979,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e244ac830a9816c7",
+  "name" : "test_login[正确账号登录]",
+  "time" : {
+    "start" : 1708172461920,
+    "stop" : 1708172461920,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "363f05b1e31f8797",
+  "name" : "test_login[无密码登录]",
+  "time" : {
+    "start" : 1708172462052,
+    "stop" : 1708172462052,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b41f997f498d1f6",
+  "name" : "test_login[无账号登录]",
+  "time" : {
+    "start" : 1708172462027,
+    "stop" : 1708172462031,
+    "duration" : 4
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
