@@ -22,7 +22,7 @@ def handle_black(fun):
             # 如果没有找到对象就遍历黑名单列表
             for black in black_list:
                 logging.info(f"在黑名单中查找元素{black}")
-                eles = by_self.driver.find_elements(*black)  # find_elements返回的是一个列表
+                eles = by_self.driver.find_elements(*black)
                 # 如果黑名单中的元素存在，就对该元素进行处理
                 if len(eles) > 0:
                     eles[0].click()

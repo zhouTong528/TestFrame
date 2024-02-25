@@ -1,26 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "AssertionError: assert '测试小周965' == '测试小周9651'\n  - 测试小周9651\n  ?        -\n  + 测试小周965",
+      "name" : "selenium.common.exceptions.TimeoutException: Message: 元素超时未找到",
       "children" : [ {
         "name" : "使用正确的账号密码登录",
-        "uid" : "9364d390cf0ea498",
-        "parentUid" : "f1046c87b590692f793fd35d2492bf89",
-        "status" : "failed",
+        "uid" : "2af970549ec22f26",
+        "parentUid" : "7c8c0208caca6441c580bb78182e2f72",
+        "status" : "broken",
         "time" : {
-          "start" : 1708188718213,
-          "stop" : 1708188738270,
-          "duration" : 20057
+          "start" : 1708876946470,
+          "stop" : 1708877010800,
+          "duration" : 64330
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f1046c87b590692f793fd35d2492bf89"
+      "uid" : "7c8c0208caca6441c580bb78182e2f72"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }

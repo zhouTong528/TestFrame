@@ -1,73 +1,22 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "test_cases",
+    "name" : "test_cases.test_login",
     "children" : [ {
-      "name" : "test_login",
-      "children" : [ {
-        "name" : "使用正确的账号密码登录",
-        "uid" : "9364d390cf0ea498",
-        "parentUid" : "a7edde4494a9bc1bf11498895350f7e9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1708188718213,
-          "stop" : 1708188738270,
-          "duration" : 20057
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a7edde4494a9bc1bf11498895350f7e9"
-    }, {
-      "name" : "test_publish_article",
-      "children" : [ {
-        "name" : "上传5M以下图片",
-        "uid" : "7fe32683696b6d0f",
-        "parentUid" : "ab8453ef06b66970697929560d49b9b1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1708188746535,
-          "stop" : 1708188770880,
-          "duration" : 24345
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ab8453ef06b66970697929560d49b9b1"
-    }, {
-      "name" : "test_user_center",
-      "children" : [ {
-        "name" : "编辑用户性别",
-        "uid" : "37d223f78a07ecfc",
-        "parentUid" : "21bacaaa8a0caac0f49cf84ce58aac2f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1708188778278,
-          "stop" : 1708188798909,
-          "duration" : 20631
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'男'" ]
-      }, {
-        "name" : "编辑用户性别",
-        "uid" : "b5bcfe22b24b79cc",
-        "parentUid" : "21bacaaa8a0caac0f49cf84ce58aac2f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1708188806561,
-          "stop" : 1708188827397,
-          "duration" : 20836
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'女'" ]
-      } ],
-      "uid" : "21bacaaa8a0caac0f49cf84ce58aac2f"
+      "name" : "使用正确的账号密码登录",
+      "uid" : "2af970549ec22f26",
+      "parentUid" : "a7edde4494a9bc1bf11498895350f7e9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1708876946470,
+        "stop" : 1708877010800,
+        "duration" : 64330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
-    "uid" : "2f5e813f34afdf02067fd6c5958321ba"
+    "uid" : "test_cases.test_login"
   } ],
   "name" : "packages"
 }

@@ -73,17 +73,14 @@ class BasePage:
         ele = WebDriverWait(self.driver, 10).until(lambda driver: driver.find_element(*by_locator), message="元素超时未找到")
         return ele
 
-    @handle_black
     def find_and_click(self, by, locator):
         self.find(by, locator).click()
         get_screenshot_gif()
 
-    @handle_black
     def find_and_send_keys(self, by, locator, keys):
         self.find(by, locator).send_keys(keys)
         get_screenshot_gif()
 
-    @handle_black
     def find_and_clear(self, by, locator):
         self.find(by, locator).clear()
         get_screenshot_gif()
@@ -109,17 +106,14 @@ class BasePage:
         eles = WebDriverWait(self.driver, 10).until(lambda driver: driver.find_elements(*by_locator), message="元素超时未找到")
         return eles
 
-    @handle_black
     def finds_and_click(self, by, locator, index):
         self.finds(by, locator)[index].click()
         get_screenshot_gif()
 
-    @handle_black
     def finds_and_send_keys(self, by, locator, keys, index):
         self.finds(by, locator)[index].send_keys(keys)
         get_screenshot_gif()
 
-    @handle_black
     def finds_and_clear(self, by, locator, index):
         self.finds(by, locator)[index].clear()
         get_screenshot_gif()
@@ -139,7 +133,6 @@ class BasePage:
         ActionChains(self.driver).move_to_element(ele).perform()
         get_screenshot_gif()
 
-    @handle_black
     def switch_to_window(self, index):
         """
         句柄切换窗口
@@ -149,7 +142,6 @@ class BasePage:
         handles = self.driver.window_handles
         self.driver.switch_to.window(handles[index])
 
-    @handle_black
     def switch_to_frame(self, frame_identifier):
         """
         切换到指定iframe
@@ -158,7 +150,6 @@ class BasePage:
         """
         self.driver.switch_to.frame(frame_identifier)
 
-    @handle_black
     def switch_to_content(self, target='default_content'):
         """
         切换到指定内容或框架，支持'parent_frame'和'default_content'两种模式
@@ -172,7 +163,6 @@ class BasePage:
         else:
             raise ValueError(f"不支持的目标 '{target}'，请使用'parent_frame'或'default_content'")
 
-    @handle_black
     def switch_alert_and_action(self, yes_or_not=None, text=None):
         """
         处理alert
@@ -190,7 +180,6 @@ class BasePage:
         else:
             alert.dismiss()
 
-    @handle_black
     def scroll_page(self, x, y, t=0):
         """
         :param x: 滑动距离x

@@ -1,78 +1,21 @@
 {
-  "4128b4964a91f9a3a63b45964d22c828" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "37d223f78a07ecfc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1708188778278,
-        "stop" : 1708188798909,
-        "duration" : 20631
-      }
-    } ]
-  },
-  "29c8de1f110d4d975a7a3bdfd5b8b01a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b5bcfe22b24b79cc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1708188806561,
-        "stop" : 1708188827397,
-        "duration" : 20836
-      }
-    } ]
-  },
-  "90f93616dc7e0e264a7314170730c475" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7fe32683696b6d0f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1708188746535,
-        "stop" : 1708188770880,
-        "duration" : 24345
-      }
-    } ]
-  },
   "12446b02a66352ffa85f449befffc7ad" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9364d390cf0ea498",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '测试小周965' == '测试小周9651'\n  - 测试小周9651\n  ?        -\n  + 测试小周965",
+      "uid" : "2af970549ec22f26",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: 元素超时未找到",
       "time" : {
-        "start" : 1708188718213,
-        "stop" : 1708188738270,
-        "duration" : 20057
+        "start" : 1708876946470,
+        "stop" : 1708877010800,
+        "duration" : 64330
       }
     } ]
   }

@@ -8,13 +8,13 @@
         "name" : "TestLogin",
         "children" : [ {
           "name" : "使用正确的账号密码登录",
-          "uid" : "9364d390cf0ea498",
+          "uid" : "2af970549ec22f26",
           "parentUid" : "f364149869161a95da77518cd2f5894f",
-          "status" : "failed",
+          "status" : "broken",
           "time" : {
-            "start" : 1708188718213,
-            "stop" : 1708188738270,
-            "duration" : 20057
+            "start" : 1708876946470,
+            "stop" : 1708877010800,
+            "duration" : 64330
           },
           "flaky" : false,
           "newFailed" : false,
@@ -23,61 +23,6 @@
         "uid" : "f364149869161a95da77518cd2f5894f"
       } ],
       "uid" : "9ad89efd6ef119ff9521e93685587771"
-    }, {
-      "name" : "test_publish_article",
-      "children" : [ {
-        "name" : "TestPublishArticle",
-        "children" : [ {
-          "name" : "上传5M以下图片",
-          "uid" : "7fe32683696b6d0f",
-          "parentUid" : "f41d33d6365cfd27a096d1d02a524d63",
-          "status" : "passed",
-          "time" : {
-            "start" : 1708188746535,
-            "stop" : 1708188770880,
-            "duration" : 24345
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "f41d33d6365cfd27a096d1d02a524d63"
-      } ],
-      "uid" : "51fad18742cb6361ab2ee7b8b0f2a5f9"
-    }, {
-      "name" : "test_user_center",
-      "children" : [ {
-        "name" : "TestUserCenter",
-        "children" : [ {
-          "name" : "编辑用户性别",
-          "uid" : "37d223f78a07ecfc",
-          "parentUid" : "8716c0d6ef42fc7e874c3967cb9273d9",
-          "status" : "passed",
-          "time" : {
-            "start" : 1708188778278,
-            "stop" : 1708188798909,
-            "duration" : 20631
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "'男'" ]
-        }, {
-          "name" : "编辑用户性别",
-          "uid" : "b5bcfe22b24b79cc",
-          "parentUid" : "8716c0d6ef42fc7e874c3967cb9273d9",
-          "status" : "passed",
-          "time" : {
-            "start" : 1708188806561,
-            "stop" : 1708188827397,
-            "duration" : 20836
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "'女'" ]
-        } ],
-        "uid" : "8716c0d6ef42fc7e874c3967cb9273d9"
-      } ],
-      "uid" : "92b06cc9ece0c374d6401c6eb6a1ceef"
     } ],
     "uid" : "10075452c99ff4a1bfbce955ca922247"
   } ],
